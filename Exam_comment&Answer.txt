@@ -1,0 +1,8 @@
+Section A - Setup
+1.)	 - Command to set username: git config --global user.name "Famuwagun Olajide"
+	-Command to set Email: git config --global user.email "famuwagunolajide@gmail.com"
+2.) - Command to check git version:  git --version
+      - Command to list current configurations: git config --list
+
+Section B - Repository Initializtion
+	1.)
