@@ -5,4 +5,18 @@ Section A - Setup
       - Command to list current configurations: git config --list
 
 Section B - Repository Initializtion
-	1.)
+	3.) -Command to create folder and navigate into it:
+	      -Command to initialize git:    mkdir Olajide /cd Olajide
+	4.) -Command to add file content using terminal:   echo "My first Git repo" > readme.md
+	5.) -Command:   git status
+
+Section C - Staging and Committing
+	6.)  -Command:   git add readme.md
+	7.) -Command:    git commit -m "Initial commit
+	8.)  -Command to check what changed before committing:  git diff
+	9.)  -Stage: git add .
+	       -Commit:  git commit -m "Updated readme"
+
+Section D - Branching & Merging
+	10.)  -Command to create and switch:   git checkout -b feature-1 
+	11.)  -- Commands:-  Create file:		- Stage:			- Commit:
