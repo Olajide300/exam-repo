@@ -20,5 +20,7 @@ Section C - Staging and Committing
 Section D - Branching & Merging
 	10.)  -Command to create and switch:   git checkout -b feature-1 
 	11.)  -- Commands:-  Create file: echo "This is a feature branch" > notes.txt		
-			  - Stage:  git add notes.txt			- Commit:  git commit -m "Add notes.txt in feature-1"
-	12.)  -
+			 - Stage:  git add notes.txt	
+			 - Commit:  git commit -m "Add notes.txt in feature-1"
+	12.)   -- Commands:-  Switch: 		
+			  - Meerge: 
