@@ -22,5 +22,20 @@ Section D - Branching & Merging
 	11.)  -- Commands:-  Create file: echo "This is a feature branch" > notes.txt		
 			 - Stage:  git add notes.txt	
 			 - Commit:  git commit -m "Add notes.txt in feature-1"
-	12.)   -- Commands:-  Switch: 		
-			  - Meerge: 
+	12.)   -- Commands:-  Switch: git checkout master
+			  - Merge: git merge feature-1
+
+Section E - Github integration
+	13.) -____________
+	14.) -Command:  git remote add origin https://github.com/Olajide300/exam-repo.git
+	15.) -Command:  git push -u origin master
+	16.) -Command:  git remote -v
+	17.) -Command:  git clone hhttps://github.com/Olajide300/exam-repo.git
+	
+Section F - Bonus
+	18.)  -Command:  git reset HEAD~1
+	19.)  -Command:  git log --oneline
+	20.)  -- Commands:-  Create file: echo "*.log" > .gitignore		
+			 - Stage:  	git add .gitignore
+			 - Commit:  git commit -m "Add .gitignore file"
+	
